@@ -1,0 +1,15 @@
+function moveButton() {
+    const noBtn = document.getElementById('noButton');
+    
+    // Calculate random positions within the screen
+    const x = Math.random() * (window.innerWidth - noBtn.offsetWidth);
+    const y = Math.random() * (window.innerHeight - noBtn.offsetHeight);
+    
+    noBtn.style.left = `${x}px`;
+    noBtn.style.top = `${y}px`;
+}
+
+function celebrate() {
+    document.getElementById('ask-section').style.display = 'none';
+    document.getElementById('celebration-section').style.display = 'block';
+}

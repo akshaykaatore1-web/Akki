@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="ask-section">
+            <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHY5eXN6ZzRyc3R6eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/cLS1cfxvGOPVpf9g3y/giphy.gif" alt="Cute Bear">
+            <h1>Will you be my Valentine?</h1>
+            <div class="buttons">
+                <button id="yesButton" onclick="celebrate()">Yes</button>
+                <button id="noButton" onmouseover="moveButton()">No</button>
+            </div>
+        </div>
+
+        <div id="celebration-section" style="display: none;">
+            <h1>YAY! ❤️</h1>
+            <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHY5eXN6ZzRyc3R6eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l41lH4ADRtAYnGsLe/giphy.gif" alt="Celebration">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
